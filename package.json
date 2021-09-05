@@ -1,0 +1,25 @@
+{
+  "name": "yarn-plugin-wait",
+  "packageManager": "yarn@3.0.2",
+  "author": "Dmitry Zelenetskiy <dmytro.zelenetskyi@gmail.com>",
+  "license": "MIT",
+  "main": "./sources/index.ts",
+  "dependencies": {
+    "@types/node": "^16.7.10",
+    "@yarnpkg/builder": "^3.0.1",
+    "@yarnpkg/core": "^3.0.0",
+    "clipanion": "^3.0.1",
+    "typescript": "^4.4.2"
+  },
+  "scripts": {
+    "build": "builder build plugin"
+  },
+  "devDependencies": {
+    "@types/timestring": "^6.0.2",
+    "chalk": "^4.1.2",
+    "cli-spinners": "^2.6.0",
+    "execa": "^5.1.1",
+    "log-update": "^4.0.0",
+    "timestring": "^6.0.0"
+  }
+}
