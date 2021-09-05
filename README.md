@@ -4,6 +4,11 @@
 
 ## Usage
 
+Install the plugin:
+```sh
+yarn plugin import https://raw.githubusercontent.com/zemd/yarn-plugin-wait/main/bundles/%40yarnpkg/plugin-wait.js
+```
+
 Waiting for specific amount of time:
 
 ```sh
