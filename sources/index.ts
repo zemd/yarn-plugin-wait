@@ -109,6 +109,7 @@ class WaitCommand extends Command<CommandContext> {
           this.eventEmitter.emit('waitAndRun')
         }
       } catch(error) {
+        this.context.stdout.write(`< Error ${chalk.red(error.message)}\n`);
         this.isRunning = false;
         this.eventEmitter.emit('waitAndRun')
       }
